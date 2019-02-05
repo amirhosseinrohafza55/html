@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- log -->
+    <style>
+        table{
+            width: 100%;
+            border-spacing: 15px;
+        }
+        table, td,th{
+           border: 1px solid #333;
+           /* border-collapse: collapse; */
+        }
+        td,th{
+            padding: 15px;
+        }
+        th{
+            text-align: left;
+        }
+        table#t01{
+            margin-top: 15px;
+            width: 100%;
+            /* background-color: #f1f1f1; */
+        }
+        /* readability */
+        table#t01 tr:nth-child(even){
+            background-color: #eee;
+        }
+        table#t01 tr:nth-child(odd){
+            background-color: #fff;
+        }
+    </style>
+</head>
+<!-- grid -->
+<body>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Tim</td>
+            <td>Butron</td>
+            <td>60</td>
+        </tr>
+    </table>
+
+    <table id="t01">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+    
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Tim</td>
+                <td>Butron</td>
+                <td>60</td>
+            </tr>
+        </table>
+</body>
+
+</html>
